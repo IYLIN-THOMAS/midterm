@@ -1,0 +1,101 @@
+body{
+    background-color:rgb(116, 110, 181);
+    max-width: 950px;
+    margin:auto;
+}
+main, nav{
+    background-color:rgb(169, 168, 204);
+}
+main{
+    padding: 100px;
+}
+nav{
+    text-align:center;
+}
+nav a{
+    text-decoration:none;
+    color: black;
+    font-size:25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform:uppercase;
+    text-align: center;
+    border-right: 2px  grey solid;
+    display: inline-block;
+    width: 30%;
+}
+
+.image img{
+    width:100%;
+    height: auto;
+}
+.image{
+    position:relative;
+    width:100%;
+    text-align:center;
+    z-index:1;
+    background-color:bisque;
+}
+#name{
+    width:700px;
+    height:25px;
+}
+#email{
+    width: 700px;
+    height:25px;
+
+}
+#message{
+    width:700px;
+}
+h1{
+    position:absolute;
+    top:35%;
+    left:50%;
+    text-align: center;
+    transform:translate(-50%,-50%);
+    font-size:60px;
+    color: antiquewhite;
+    z-index:1;
+    width:100%;
+    height:auto;
+}
+.content img{
+    width:50%;
+    height:50%;
+    margin-right:15px;
+    float:left;
+    margin-bottom-10px;
+}
+h2{
+    color:black;
+    font-weight:bold;
+    font-size:25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+    color:black;
+    font-weight:bold;
+    font-size:25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form{
+    border:solid;
+    border-color:gray;
+    border-width:2px;
+    padding:10px;
+}
+#contact{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:16px;
+    color:black;
+    padding-top: 30px;
+}
+.footer {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: right;
+ }
